@@ -1,8 +1,4 @@
---- creates a table users with the atributes
---- id, integer, never null, auto increment and public key
---- email, string, never null and unique
---- name, string
---- script can be executed in any database
+-- creates a table with unique users
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
 	id INT NOT NULL AUTO-INCREMENT PRIMARY KEY,
