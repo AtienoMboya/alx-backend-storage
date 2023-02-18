@@ -1,5 +1,5 @@
--- creates a table users with the following attributes
--- id, email, name and country
+-- creates a table users
+
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
